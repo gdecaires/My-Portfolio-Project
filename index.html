@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="./css/custom.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:300" rel="stylesheet">
+  <script type="text/javascript">
+      function myFunction() {
+    var x = document.getElementById('overlay1', 'overlay2');
+    if (x.style.visibility === 'hidden') {
+        x.style.visibility = 'visible';
+    } else {
+        x.style.visibility = 'hidden';
+    }
+}
+  </script>
+</head>
+<body>
+<div class="container">
+  <section class="header_row">
+    <div class="row">
+      <h1>Geoffrey de Caires - My Portfolio</h1>
+    </div>
+  </section>
+  <section class="main">
+     <div  onclick="myFunction()" class="row row1">
+      <picture>
+       <source srcset="" type="image.jpg">
+       <img src="images/beaches.jpg" alt="beaches">
+      </picture>
+      <h2>
+      <span>About Me</span></h2>
+      <div id="overlay1" class="textoverlay">
+      <p>Yabba-Dabba-Do! Scoob Do and Shaggy Too!<br>
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut tempor sollicitudin magna, eget sagittis nulla volutpat at. Maecenas semper justo in tincidunt pretium. Pellentesque cursus mi vel lorem egestas, ut tristique lorem laoreet. Nullam eget nisl varius, lobortis turpis vitae, commodo ligula. Integer justo nibh, varius vitae sodales sit amet, suscipit ut tellus. Nam at erat diam. Vestibulum aliquet metus felis, vel viverra velit imperdiet sed. Suspendisse et felis velit.</p>
+      </div>
+
+</div>
+
+    <div onclick="myFunction('overlay2')" class="row row2">
+      <picture>
+          <source srcset="" type="image/jpg">
+          <img src="images/all_men.jpg" alt="all men">
+      </picture>
+      <h2><span>My Work</span></h2>
+      <div id="overlay2" class="textoverlay">
+      <p>Yabba-Dabba-Do! Scoob Do and Shaggy Too!<br>
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut tempor sollicitudin magna, eget sagittis nulla volutpat at. Maecenas semper justo in tincidunt pretium. Pellentesque cursus mi vel lorem egestas, ut tristique lorem laoreet. Nullam eget nisl varius, lobortis turpis vitae, commodo ligula. Integer justo nibh, varius vitae sodales sit amet, suscipit ut tellus. Nam at erat diam. Vestibulum aliquet metus felis, vel viverra velit imperdiet sed. Suspendisse et felis velit.</p>
+    </div>
+    </div>
+
+    <div onclick="myFunction(overlay3)" class="row row3">
+      <picture>
+          <source srcset="" type="image/jpg">
+          <img src="images/Pond.jpg" alt="Pond Beaches">
+      </picture>
+      <h2><span>Cool Tools</span></h2>
+      <div id="overlay3" class="textoverlay">
+      <p>Yabba-Dabba-Do! Scoob Do and Shaggy Too!<br>
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut tempor sollicitudin magna, eget sagittis nulla volutpat at. Maecenas semper justo in tincidunt pretium. Pellentesque cursus mi vel lorem egestas, ut tristique lorem laoreet. Nullam eget nisl varius, lobortis turpis vitae, commodo ligula. Integer justo nibh, varius vitae sodales sit amet, suscipit ut tellus. Nam at erat diam. Vestibulum aliquet metus felis, vel viverra velit imperdiet sed. Suspendisse et felis velit.</p>
+    </div>
+    </div>
+
+    <div onclick="myFunction(overlay4)" class="row row4">
+      <picture>
+          <source srcset="" type="image/jpg">
+          <img src="images/tulips.jpg" alt="Tulips">
+      </picture>
+      <h2><span>References</span></h2>
+      <div id="overlay4" class="textoverlay">
+      <p>Yabba-Dabba-Do! Scoob Do and Shaggy Too!<br>
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut tempor sollicitudin magna, eget sagittis nulla volutpat at. Maecenas semper justo in tincidunt pretium. Pellentesque cursus mi vel lorem egestas, ut tristique lorem laoreet. Nullam eget nisl varius, lobortis turpis vitae, commodo ligula. Integer justo nibh, varius vitae sodales sit amet, suscipit ut tellus. Nam at erat diam. Vestibulum aliquet metus felis, vel viverra velit imperdiet sed. Suspendisse et felis velit.</p>
+    </div>
+    </div>
+  </section>
+</div>
+</body>
+</html>
