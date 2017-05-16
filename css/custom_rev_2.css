@@ -139,3 +139,20 @@ li a {
         width: calc((100% - 2px)/3);
     }
 }
+
+@media screen and (min-width: 2000px) {
+        body {
+        width: 60%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #image_container {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .bodyimg {
+        width: calc((100% - 2px)/3);
+    }
+}
